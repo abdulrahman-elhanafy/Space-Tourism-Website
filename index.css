@@ -1,3 +1,14 @@
+/* ----------------------------- */
+/*       Custom Properties       */
+/* ----------------------------- */
+:root{
+  --clr-dark: 230 35% 7%;
+  --clr-light: 231 77% 90%;
+  --clr-white: 0 0% 100%;
+}
+
+
+
 /* ---------------------------- */
 /*            Reset             */
 /* ---------------------------- */
@@ -104,3 +115,14 @@ select {
   padding: 2rem;
   border-radius: 1rem;
 }
+
+
+/* Colors Section */
+
+.bg-dark {background-color: hsl( var(--clr-dark) );}
+.bg-accent {background-color: hsl( var(--clr-light) );}
+.bg-white {background-color: hsl( var(--clr-white) );}
+
+.txt-dark { color: hsl( var(--clr-dark) );}
+.txt-accent { color: hsl( var(--clr-light) );}
+.txt-white { color: hsl( var(--clr-white) );}
